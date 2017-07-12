@@ -3,9 +3,8 @@ using System.Collections.Generic;
 
 namespace Net.Chdk.Meta.Providers.CameraTree
 {
-    public interface IInnerCameraTreeProvider
+    public interface IInnerCameraTreeProvider : IExtensionProvider
     {
         IDictionary<string, TreePlatformData> GetCameraTree(string path);
-        string Extension { get; }
     }
 }
