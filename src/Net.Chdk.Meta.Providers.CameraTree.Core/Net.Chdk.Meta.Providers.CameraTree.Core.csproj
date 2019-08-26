@@ -7,8 +7,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.3.0</Version>
+    <Version>0.4.0</Version>
     <Product>CHIMP</Product>
+    <Authors>Dmitry Shechtman</Authors>
     <Copyright>Copyright © 2017 Dmitry Shechtman</Copyright>
   </PropertyGroup>
 
@@ -16,9 +17,8 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Net.Chdk.Meta.Providers.CameraTree.Core</Title>
     <PackageVersion>$(Version)-alpha</PackageVersion>
-    <Authors>Dmitry Shechtman</Authors>
+    <PackageLicenseExpression>GPL-2.0-or-later</PackageLicenseExpression>
     <PackageIconUrl>https://raw.githubusercontent.com/CHDKUtil/CHIMP/master/tiny.png</PackageIconUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/CHDKUtil/Net.Chdk.Meta.Providers.CameraTree.Core/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/CHDKUtil/Net.Chdk.Meta.Providers.CameraTree.Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CHDKUtil/Net.Chdk.Meta.Providers.CameraTree.Core</RepositoryUrl>
     <PackageTags>chimp meta provider cameratree core</PackageTags>
@@ -36,7 +36,7 @@
 
   <ItemGroup>
     <PackageReference Include="Net.Chdk.Meta.Model.CameraTree" Version="0.1.0-alpha" />
-    <PackageReference Include="Net.Chdk.Meta.Providers.Core" Version="0.3.0-alpha" />
+    <PackageReference Include="Net.Chdk.Meta.Providers.Core" Version="0.4.0-alpha" />
   </ItemGroup>
 
 </Project>
